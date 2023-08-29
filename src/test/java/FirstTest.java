@@ -12,7 +12,7 @@ public class FirstTest {
     String browser = "Chrome";
     @Test
     public void searchWebDriverTest (){
-        WebDriverManager.chromedriver().setup();
+        //WebDriverManager.chromedriver().setup();
         wd = new ChromeDriver();
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
